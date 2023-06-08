@@ -26,3 +26,6 @@ jobs:
 
     - name: Test
       run: go version
+    
+    - name: Deploy
+      run: go run main_2.go
